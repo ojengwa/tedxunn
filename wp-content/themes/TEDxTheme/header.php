@@ -52,7 +52,7 @@
         <div class="row">
           <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
             <a href="<?= get_theme_mod('logo_link', '/'); ?>">
-              <?php (get_theme_mod('logo')) ? $logo = get_theme_mod('logo') : $logo = 'http://placehold.it/229x50.png' ?>
+              <?php (get_theme_mod('logo')) ? $logo = get_theme_mod('logo') : $logo = 'https://pbs.twimg.com/profile_images/796502719376789504/CgIKvIH0.jpg' ?>
               <img src="<?= $logo ?>" height="50" width="229" alt="Logo" class="pull-left">
             </a>
             <div class="header-date-location pull-left">
