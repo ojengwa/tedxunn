@@ -13,11 +13,6 @@ $template_url = get_template_directory_uri();
         <div class="col-md-3 col-sm-12">
           <?= get_theme_mod('twitter_follow_button'); ?>
         </div>
-        <div class="col-md-5 col-sm-12 web-partners">
-          <div class="built-by gutter-right gutter-bottom">Built By</div>
-          <a class="jc-link gutter-right ir" taget="_blank" href="http://www.jetcooper.com">Jet Cooper</a>
-          <a class="twg-link ir" target="_blank" href="http://www.twg.ca">TWG</a>
-        </div>
       </div>
 
     </footer>
