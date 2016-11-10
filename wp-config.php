@@ -36,7 +36,7 @@ if(isset($_ENV['CLEARDB_DATABASE_URL'])) {
 	define('DB_HOST', $db['host']);
 
 
-		/** Database Charset to use in creating database tables. */
+		/** Database Charset to use in creating database tables. */'
 	define('DB_CHARSET', 'utf8');
 
 		/** The Database Collate type. Don't change this if in doubt. */
@@ -64,7 +64,14 @@ define('SECURE_AUTH_SALT', 'put your unique phrase here');
 define('LOGGED_IN_SALT',   'put your unique phrase here');
 define('NONCE_SALT',       'put your unique phrase here');
 
+
+/**
+ * AWSS KEYS
+ */
 /**#@-*/
+
+define( 'DBI_AWS_ACCESS_KEY_ID', $_ENV['DBI_AWS_ACCESS_KEY_ID'] );
+define( 'DBI_AWS_SECRET_ACCESS_KEY', $_ENV['DBI_AWS_SECRET_ACCESS_KEY'] );
 
 /**
  * WordPress Database Table prefix.
