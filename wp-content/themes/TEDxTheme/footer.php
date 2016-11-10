@@ -5,12 +5,12 @@ $template_url = get_template_directory_uri();
   <div class="container">
     <footer>
       <div class="row">
-        <div class="col-md-4 col-md-offset-4 col-sm-12 legal">
+        <div class="col-md-4 col-sm-12 legal">
           This TEDx event is independently organized.<br>
           Copyright © <?= get_theme_mod('event_name', 'TEDx') ?> <?= date("Y"); ?>. All Rights Reserved. <a
             href="/legal-and-privacy/">Legal &amp; Privacy</a>
         </div>
-        <div class="col-md-4 col-sm-12">
+        <div class="col-md-4 col-md-offset-4 col-sm-12">
           <?= get_theme_mod('twitter_follow_button'); ?>
         </div>
       </div>
