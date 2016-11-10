@@ -36,7 +36,7 @@ if(isset($_ENV['CLEARDB_DATABASE_URL'])) {
 	define('DB_HOST', $db['host']);
 
 
-		/** Database Charset to use in creating database tables. */'
+		/** Database Charset to use in creating database tables. */
 	define('DB_CHARSET', 'utf8');
 
 		/** The Database Collate type. Don't change this if in doubt. */
